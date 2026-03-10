@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1> Negrito / Destaque </h1>
+    <p1> Nessa frase usaremos a tag "b" para deixar a frase em Negrito: <B>Negrito</b> </p1>
+        <br>
+    <p1> Nessa frase usaremos a tag "Strong" para deixar a frase em Negrito: <strong>Negrito</strong> </p1>
+        <br>
+    <h1> Itálico/Ênfase </h1>
+    <p1> Nessa frase usaremos a tag "i" para deixar a frase em Itálico: <i>Itálico</i></p1>
+        <br>
+    <p1> Nessa frase usaremos a tag "em" para deixar a frase em Itálico: <em>Itálico</em></p1>
+        <br>
+    <h1> Texto Marcador </h1>
+    <p1> Nessa frase usaremos a tag "mark" para deixar a frase com marca-texto <mark> marca-texto </mark></p1>
+        <br>
+    <p1> Nessa frase usaremos a tag "mark" para deixar a frase com marca-texto <mark style="background-color: rgb(250, 12, 4);" > marca-texto </mark></p1>
+
+    <h1> Texto grande e texto pequeno </h1>
+    <p1> Nessa frase temos um texto <big> grande </big> e um <small> pequeno </small> </p1>
+
+    <h1> Texto deletado </h1>
+    <p1>  Nessa frases temos um preço riscado ,<small><del> R$90.00 </del></small> R$100.00</p1>
+        <br>
+    <h1> Texto Inserido </h1>
+    <p1> Nessa frase destacaremos um texto com <u>sublinhado</u> de forma não semântica </p1>
+    <br>
+    <p1> Nessa frase destacaremos um texto com <ins>sublinhado</ins> de forma semântica </p1>
+        <br>
+    <h1> Texto sobrescrito</h1>
+    <p1> uma forma de sobrescrever é usando sup tipo: x<sup>2</sup></p1>
+    <h1> Texto subscrito </h1>
+    <p1> uma forma de subscrever é usando o sub tipo: H<sub>2</sub>O</p1>
+    <br>
+    <h1> Código </h1>
+    <pre><code>import random
+import string
+
+def gerar_senha(tamanho=12):
+    caracteres = string.ascii_letters + string.digits + string.punctuation
+    senha = ''.join(random.choice(caracteres) for _ in range(tamanho))
+    return senha
+
+# Exemplo de uso
+print(gerar_senha())       # senha de 12 caracteres
+print(gerar_senha(16))     # senha de 16 caracteres</code></pre>
+
+
+<h1> Listas </h1>
+<h2> listas com círculos </h2>
+<ul>
+   <li>Cenoura</li>
+   <li>Banana</li>
+   <li>Carne de porco</li>
+   <li>Alface</li>
+   <li>Maçã</li>
+</ul>
+<br>
+<h2> Listas com numeração </h2>
+<ol> 
+    <li> Supino Inclinado com Halter 3x8 </li>
+    <li> Crossover 2x8 </li>
+    <li> Supino Vertical 2x8 </li>
+    <li> Voador 2x8 </li>
+    <li> Tríceps Corda 2x10 </li>
+</ol>
+<br>
+<h2> Lista em Quadrado </h2>
+<ul style="list-style-type: square;">
+    <li>3 ovos</li>
+    <li>massa</li>
+    <li>açucar</li>
+    <li> leite </li>
+    <li> fermento </li>
+  </ul>
+
+  <h2> Listas em romano <h2>
+<ol type="I">
+    <li>Vitória/ES</li>
+    <li>Rio de Janeiro</li>
+    <li>São Paulo</li>
+  </ol>
+  
+  <ol type="i">
+    <li>Piauí</li>
+    <li>Minas-Gerais</li>
+    <li> Brasília s</li>
+  </ol>
+  
+  
+
+
+
+</body>
+</html> 
