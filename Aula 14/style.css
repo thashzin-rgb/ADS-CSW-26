@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.topo-pai{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00404e;
+    padding: 10px;
+}
+
+.topo-pai h1{
+
+            padding-left: 10px;
+}
+
+nav a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        padding-right: 24px;
+
+}
+
+h1{
+
+    color: #fff;
+}
+
+.main-pai{
+
+    /*background-color: rgb(8, 92, 92); */
+    width: 200,25vh;
+    height: 43vw;
+    display: flex;
+}
+
+.rodapé{
+
+    background-color: #00404e;
+    height: 5vh;
+}
+
+.aside-esquerdo{
+
+    background-color: #013642;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Quicksand", sans-serif;
+    padding-top: 70px;
+    
+}
+
+.rodapé{
+
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-centro{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 60px;
+    
+    
+
+}
+
+.conteudo-centro button{
+
+    width: 280px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.card{
+
+    flex: 1 1 30%;
+    transition: 1.2s ease 0.3s;
+    padding-bottom: 20px;
+    
+    
+}
+
+button{
+
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+button:hover{
+
+            background-color: antiquewhite;
+}
